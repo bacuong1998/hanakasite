@@ -1,0 +1,65 @@
+.container-width, .full-width .ubermenu-nav, .container, .row {
+    max-width: 1300px;
+}
+#header{
+    background: #202122;
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.navbar li:first-child {
+    margin-left: 0 !important;
+}
+.navbar li:last-child{
+    margin-right: 0 !important;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.navbar li a:hover{
+    color: #E96324;
+}
+.lang{
+    text-align: right;
+}
+#footer{
+    padding: 60px 0;
+    background-color: #E96324;
+    position: relative;
+}
+.footer-left{
+    padding: auto;
+    width: 50%;
+    float: left;
+    height: 365px;
+}
+.footer-right{
+    width: 50%;
+    float: left;
+    height: 365px;
+}
+#footer::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    background-color: #202122;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.clear-fix{
+    clear: both;
+}
