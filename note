@@ -1,6 +1,7 @@
 Cấu trúc section => theo code sau
 <section class="section">
-  <div class="section-bg"></div>
+
+  <div class="section-bg"></div> // Đây là background
   <div class="section-content">
     <div class="row">
       <div class="container">
