@@ -36,30 +36,50 @@
     text-align: right;
 }
 #footer{
-    padding: 60px 0;
-    background-color: #E96324;
     position: relative;
+    background: linear-gradient(to right, #e96324 50%,#202122 50%,#202122 50%); 
+}
+.footer-main{
+    display: flex;
+    color: #fff;
+    padding: 70px 0;
 }
 .footer-left{
     padding: auto;
     width: 50%;
-    float: left;
-    height: 365px;
+    display: flex;
+    
 }
 .footer-right{
     width: 50%;
-    float: left;
-    height: 365px;
+    float: right;
+    display: flex;
 }
-#footer::after{
-    content: "";
-    position: absolute;
-    width: 50%;
-    background-color: #202122;
-    height: 100%;
-    top: 0;
-    right: 0;
+.content-right{
+    padding: 0 40px;
+}
+.content-right h3{
+    font-size: 20px;
+}
+.text-content p{
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    display: flex;
+}
+.text-content i{
+    margin: 5px 10px 0 0;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
 }
 .clear-fix{
     clear: both;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.justify{
+    text-align: justify;
 }
