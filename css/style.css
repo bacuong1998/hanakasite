@@ -113,10 +113,12 @@
 .content__text--small {
     font-weight: 400;
     font-size: 16px;
+    line-height: 22px;
 }
 
 .content__text--large {
     font-size: 32px;
+    font-weight: 600;
     line-height: 44px;
 }
 
