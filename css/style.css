@@ -1,7 +1,10 @@
-.container-width, .full-width .ubermenu-nav, .container, .row {
+.container-width,
+.full-width .ubermenu-nav,
+.container,
+.row {
     max-width: 1300px;
 }
-#header{
+#header {
     background: #202122;
 }
 .header-inner {
@@ -13,73 +16,123 @@
 .navbar li:first-child {
     margin-left: 0 !important;
 }
-.navbar li:last-child{
+.navbar li:last-child {
     margin-right: 0 !important;
 }
-.navbar{
+.navbar {
     margin-bottom: 0;
 }
-.navbar li{
+.navbar li {
     list-style: none;
     margin: 0 15px;
 }
-.navbar li a{
+.navbar li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     font-size: 16px;
 }
-.navbar li a:hover{
-    color: #E96324;
+.navbar li a:hover {
+    color: #e96324;
 }
-.lang{
+.lang {
     text-align: right;
 }
-#footer{
+#footer {
     position: relative;
-    background: linear-gradient(to right, #e96324 50%,#202122 50%,#202122 50%); 
+    background: linear-gradient(to right, #e96324 50%, #202122 50%, #202122 50%);
 }
-.footer-main{
+.footer-main {
     display: flex;
     color: #fff;
     padding: 70px 0;
 }
-.footer-left{
+.footer-left {
     padding: auto;
     width: 50%;
     display: flex;
-    
 }
-.footer-right{
+.footer-right {
     width: 50%;
     float: right;
     display: flex;
 }
-.content-right{
+.content-right {
     padding: 0 40px;
 }
-.content-right h3{
+.content-right h3 {
     font-size: 20px;
 }
-.text-content p{
+.text-content p {
     font-size: 16px;
     margin-bottom: 5px;
     line-height: 20px;
     display: flex;
 }
-.text-content i{
+.text-content i {
     margin: 5px 10px 0 0;
 }
-.row{
+.row {
     margin-left: auto;
     margin-right: auto;
 }
-.clear-fix{
+.clear-fix {
     clear: both;
 }
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
-.justify{
+.justify {
     text-align: justify;
+}
+
+.section-content {
+    background-color: #202122;
+}
+
+.color--orange {
+    color: #e96324;
+}
+
+.color--white {
+    color: #ffffff;
+}
+
+.content__title {
+    margin-top: 84px;
+    margin-bottom: 84px;
+    text-align: center;
+}
+
+.content__text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.content__text--small {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.content__text--large {
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.content__image {
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.content__image--right::after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    right: -10px;
+    border-top: 5px solid #e96324;
+    border-right: 5px solid #e96324;
 }
