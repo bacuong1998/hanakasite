@@ -137,3 +137,84 @@
     font-weight: 400;
     line-height: 22px;
 }
+
+/* Gap */
+
+.gap-50 {
+    padding-top: 50px;
+}
+.gap-30 {
+    padding-top: 30px;
+}
+.gap-15 {
+    padding-top: 15px;
+}
+
+.content__image {
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.content__image--right {
+    position: relative;
+}
+
+.content__image--right::after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    border-top: 5px solid #e96324;
+    border-right: 5px solid #e96324;
+}
+
+.xaydung__image {
+    width: 100%;
+}
+
+.content__image--left {
+    position: relative;
+}
+
+.content__image--left::after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+    border-bottom: 5px solid #e96324;
+    border-left: 5px solid #e96324;
+}
+
+.cdt-xaydung-text {
+    min-height: 110px;
+}
+
+.cdt-xaydung--left {
+    padding-right: 52px;
+    border-right: 1px solid #c2c2c2;
+    padding-bottom: 20px;
+}
+
+.cdt-xaydung--right {
+    padding-left: 52px;
+    padding-bottom: 20px;
+}
+
+.cdt-linhvuc-box {
+    min-height: 150px;
+}
+
+.cdt-linhvuc-title {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.cdt-linhvuc-text {
+    min-height: 120px;
+}
