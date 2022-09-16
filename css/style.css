@@ -293,11 +293,35 @@
 }
 
 /* Start ChinhSac */
-.section-cs-banner {
-    min-height: 350px;
-    background-color: #e96324;
+.section-cs-banner{
+    position: relative;
 }
+.section-cs-banner .title-bg{
+    background-image: url(/image/cs-bg.png);
+}
+.section-cs-banner .bg-fill{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+}
+.section-cs-banner .fill{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
 
+}
+.section-content{
+    min-height: 400px;
+    position: relative;
+}
+.title-overlay{
+    background-color: rgba(255, 94, 0, 0.699);
+}
 .section-cs-2 {
     min-height: 823px;
     background-color: #202122;
