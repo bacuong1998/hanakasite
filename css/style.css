@@ -116,6 +116,9 @@
 .gap-15 {
     padding-top: 15px;
 }
+.image--full {
+    width: 100%;
+}
 
 .row {
     margin-left: auto;
@@ -235,6 +238,10 @@
     position: relative;
 }
 
+.section-cdt {
+    padding-bottom: 46px;
+    background-color: #202122;
+}
 .content__image--left::after {
     display: block;
     content: "";
@@ -262,11 +269,22 @@
     padding-bottom: 20px;
 }
 
-.cdt-linhvuc-box {
+.section-lvkd {
+    padding-bottom: 46px;
+}
+
+.section-lvkd a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.lvkd-box {
     min-height: 150px;
 }
 
-.cdt-linhvuc-title {
+.lvkd-title {
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -275,36 +293,25 @@
     min-height: 120px;
 }
 
-.section-cdt {
-    padding-bottom: 46px;
-    background-color: #202122;
-}
-
-.section-xd {
-    background-color: #e96324;
-    padding-bottom: 46px;
-}
-
-.section-xd a {
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 8px;
-}
-
 /* Start ChinhSac */
-.section-cs-banner{
+.section-cs-banner,
+.section-lvkd {
     position: relative;
 }
-.section-cs-banner .title-bg{
+.section-cs-banner .title-bg {
     background-image: url(/image/cs-bg.png);
 }
-.section-cs-banner .bg-fill{
+.section-lvkd .title-bg {
+    background-image: url(/image/cdt-bg.png);
+}
+.section-cs-banner .bg-fill,
+.section-lvkd .bg-fill {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: 50% 50%;
 }
-.section-cs-banner .fill{
+.section-cs-banner .fill,
+.section-lvkd .fill {
     position: absolute;
     top: 0;
     left: 0;
@@ -313,14 +320,14 @@
     bottom: 0;
     padding: 0 !important;
     margin: 0 !important;
-
 }
-.section-content{
+.section-content {
     min-height: 400px;
     position: relative;
 }
-.title-overlay{
-    background-color: rgba(255, 94, 0, 0.699);
+.title-overlay {
+    background-color: rgba(233, 99, 36);
+    opacity: 0.9;
 }
 .section-cs-2 {
     min-height: 823px;
