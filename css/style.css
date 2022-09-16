@@ -233,7 +233,7 @@
     border-right: 5px solid #e96324;
 }
 
-.xaydung__image {
+.xd__image {
     width: 100%;
 }
 
@@ -253,17 +253,17 @@
     border-left: 5px solid #e96324;
 }
 
-.cdt-xaydung-text {
+.cdt-xd-text {
     min-height: 110px;
 }
 
-.cdt-xaydung--left {
+.cdt-xd--left {
     padding-right: 52px;
     border-right: 1px solid #c2c2c2;
     padding-bottom: 20px;
 }
 
-.cdt-xaydung--right {
+.cdt-xd--right {
     padding-left: 52px;
     padding-bottom: 20px;
 }
@@ -281,18 +281,53 @@
     min-height: 120px;
 }
 
-.section-chudautu {
+.section-cdt {
     padding-bottom: 46px;
     background-color: #202122;
 }
 
-.section-xaydung {
+.section-xd {
     background-color: #e96324;
     padding-bottom: 46px;
 }
 
-.section-xaydung a {
+.section-xd a {
     color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.section-cs-banner {
+    min-height: 350px;
+    background-color: #e96324;
+}
+
+.section-cs-2 {
+    min-height: 823px;
+    background-color: #202122;
+}
+.section-cs-2 a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.cs-box {
+    margin-top: -80px;
+}
+.cs-box__image {
+    width: 100%;
+}
+.cs-box__content {
+    padding: 25px;
+    background-color: #ffffff;
+    min-height: 310px;
+}
+
+.cs-box__content a {
+    color: #e96324;
     font-weight: bold;
     text-decoration: none;
     margin-left: 8px;
