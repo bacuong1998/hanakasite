@@ -72,6 +72,51 @@
 .text-content i {
     margin: 5px 10px 0 0;
 }
+.section-tongquan {
+    background-color: #e96324;
+    padding: 60px 0 250px 0;
+}
+.tongquan-img img {
+    width: 100%;
+    padding: 0 0 0 30px;
+}
+.tq-except {
+    min-height: 48px;
+}
+.ss-anh {
+    margin-top: -200px;
+    text-align: right;
+    z-index: 0;
+    padding-bottom: 90px;
+}
+.section-thongtin {
+    padding: 70px 0;
+    background: #e96324;
+}
+.ss-thongtin-anh img {
+    width: 100%;
+}
+.ss-thongtin-icon i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 80px;
+    margin-top: 80px;
+}
+.section-thongtin .row {
+    padding-bottom: 50px;
+}
+.gap-70 {
+    padding-top: 70px;
+}
+.gap-50 {
+    padding-top: 50px;
+}
+.gap-30 {
+    padding-top: 30px;
+}
+.gap-15 {
+    padding-top: 15px;
+}
+
 .row {
     margin-left: auto;
     margin-right: auto;
@@ -85,15 +130,13 @@
 .justify {
     text-align: justify;
 }
-
-.section-content {
-    background-color: #202122;
+.color--black {
+    color: #202122;
 }
 /* color */
 .color--orange {
     color: #e96324;
 }
-
 .color--white {
     color: #ffffff;
 }
@@ -113,13 +156,16 @@
     margin-bottom: 84px;
     text-align: center;
 }
-
 .content__text {
     font-size: 22px;
     font-weight: 400;
     line-height: 22px;
 }
-
+.content__text--medium {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+}
 .content__text--small {
     font-weight: 400;
     font-size: 16px;
