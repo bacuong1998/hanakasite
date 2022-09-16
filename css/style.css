@@ -217,6 +217,22 @@
     border-right: 5px solid #e96324;
 }
 
+.content__image--bottom-right {
+    position: relative;
+}
+
+.content__image--bottom-right::after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: -25px;
+    right: 10px;
+    border-bottom: 5px solid #e96324;
+    border-right: 5px solid #e96324;
+}
+
 .xaydung__image {
     width: 100%;
 }
@@ -263,4 +279,21 @@
 
 .cdt-linhvuc-text {
     min-height: 120px;
+}
+
+.section-chudautu {
+    padding-bottom: 46px;
+    background-color: #202122;
+}
+
+.section-xaydung {
+    background-color: #e96324;
+    padding-bottom: 46px;
+}
+
+.section-xaydung a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
 }
