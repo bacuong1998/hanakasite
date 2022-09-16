@@ -72,49 +72,48 @@
 .text-content i {
     margin: 5px 10px 0 0;
 }
-.section-tongquan{
-    background-color: #E96324;
+.section-tongquan {
+    background-color: #e96324;
     padding: 60px 0 250px 0;
 }
-.tongquan-img img{
+.tongquan-img img {
     width: 100%;
     padding: 0 0 0 30px;
 }
-.tq-except{
+.tq-except {
     min-height: 48px;
 }
-.ss-anh{
+.ss-anh {
     margin-top: -200px;
     text-align: right;
     z-index: 0;
     padding-bottom: 90px;
 }
-.section-thongtin{
+.section-thongtin {
     padding: 70px 0;
-    background: #E96324;
-
+    background: #e96324;
 }
-.ss-thongtin-anh img{
+.ss-thongtin-anh img {
     width: 100%;
 }
-.ss-thongtin-icon i{
+.ss-thongtin-icon i {
     color: rgba(255, 255, 255, 0.5);
     font-size: 80px;
     margin-top: 80px;
 }
-.section-thongtin .row{
+.section-thongtin .row {
     padding-bottom: 50px;
 }
-.gap-70{
+.gap-70 {
     padding-top: 70px;
 }
-.gap-50{
+.gap-50 {
     padding-top: 50px;
 }
-.gap-30{
+.gap-30 {
     padding-top: 30px;
 }
-.gap-15{
+.gap-15 {
     padding-top: 15px;
 }
 
@@ -134,9 +133,7 @@
 .color--black {
     color: #202122;
 }
-.font-bold{
-    font-weight: 600 !important;
-}
+/* color */
 .color--orange {
     color: #e96324;
 }
@@ -144,6 +141,16 @@
     color: #ffffff;
 }
 
+.color--black {
+    color: #202122;
+}
+
+/* font */
+.font-bold {
+    font-weight: bold;
+}
+
+/* text */
 .content__title {
     margin-top: 84px;
     margin-bottom: 84px;
@@ -154,7 +161,7 @@
     font-weight: 400;
     line-height: 22px;
 }
-.content__text--medium{
+.content__text--medium {
     font-size: 24px;
     font-weight: 400;
     line-height: 22px;
@@ -162,16 +169,34 @@
 .content__text--small {
     font-weight: 400;
     font-size: 16px;
+    line-height: 22px;
 }
 
 .content__text--large {
     font-size: 32px;
+    font-weight: 600;
     line-height: 44px;
+}
+
+/* Gap */
+
+.gap-50 {
+    padding-top: 50px;
+}
+.gap-30 {
+    padding-top: 30px;
+}
+.gap-15 {
+    padding-top: 15px;
 }
 
 .content__image {
     padding-right: 30px;
     padding-top: 30px;
+}
+
+.content__image--right {
+    position: relative;
 }
 
 .content__image--right::after {
@@ -181,7 +206,212 @@
     height: 50px;
     position: absolute;
     top: -25px;
-    right: -10px;
+    right: 10px;
     border-top: 5px solid #e96324;
     border-right: 5px solid #e96324;
 }
+
+.content__image--bottom-right {
+    position: relative;
+}
+
+.content__image--bottom-right::after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: -25px;
+    right: 10px;
+    border-bottom: 5px solid #e96324;
+    border-right: 5px solid #e96324;
+}
+
+.xd__image {
+    width: 100%;
+}
+
+.content__image--left {
+    position: relative;
+}
+
+.content__image--left::after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+    border-bottom: 5px solid #e96324;
+    border-left: 5px solid #e96324;
+}
+
+.cdt-xd-text {
+    min-height: 110px;
+}
+
+.cdt-xd--left {
+    padding-right: 52px;
+    border-right: 1px solid #c2c2c2;
+    padding-bottom: 20px;
+}
+
+.cdt-xd--right {
+    padding-left: 52px;
+    padding-bottom: 20px;
+}
+
+.cdt-linhvuc-box {
+    min-height: 150px;
+}
+
+.cdt-linhvuc-title {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.cdt-linhvuc-text {
+    min-height: 120px;
+}
+
+.section-cdt {
+    padding-bottom: 46px;
+    background-color: #202122;
+}
+
+.section-xd {
+    background-color: #e96324;
+    padding-bottom: 46px;
+}
+
+.section-xd a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+/* Start ChinhSac */
+.section-cs-banner {
+    min-height: 350px;
+    background-color: #e96324;
+}
+
+.section-cs-2 {
+    min-height: 823px;
+    background-color: #202122;
+}
+.section-cs-2 a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.cs-box {
+    margin-top: -80px;
+}
+.cs-box__image {
+    width: 100%;
+}
+.cs-box__content {
+    padding: 25px;
+    background-color: #ffffff;
+    min-height: 310px;
+}
+
+.cs-box__content a {
+    color: #e96324;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
+/* End ChinhSach */
+/* Start TinTuc */
+.section-tt-hd {
+    background-color: #202122;
+}
+
+.tt-box {
+    padding: 50px 0;
+    border-bottom: 1px solid #525353;
+}
+
+.tt-box--left {
+    padding-right: 50px;
+}
+
+.tt-box--right img {
+    width: 100%;
+}
+
+.tt-button {
+    height: 40px;
+    width: 134px;
+    background-color: #e96324;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.tt-button span {
+    margin-right: 10px;
+}
+
+.tt-pagination {
+    padding: 10px;
+}
+.tt-pagination ul {
+    text-align: right;
+}
+.tt-pagination ul.links {
+    margin: 0;
+    font-size: 0.85em;
+}
+
+.tt-pagination ul.links li:first-child {
+    margin-left: 0;
+}
+
+.tt-pagination ul.links li {
+    margin: 0 0.4em;
+    display: inline-block;
+}
+.page-number {
+    font-size: 1.1em;
+    display: block;
+    height: 2.25em;
+    line-height: 2em;
+    text-align: center;
+    width: auto;
+    min-width: 2.25em;
+    padding: 0 7px;
+    font-weight: bolder;
+    border-radius: 99px;
+    border: none;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: top;
+    color: #fff;
+    background-color: #e96324;
+    text-decoration: none;
+}
+
+.page-number:hover {
+    color: #e96324;
+    background-color: #fff;
+}
+.page-number--active {
+    color: #e96324;
+    background-color: #fff;
+}
+
+.section-hh-sk {
+    background-color: #202122;
+}
+
+.hd-sk-box {
+    padding-bottom: 40px;
+}
+/* End TinTuc */
