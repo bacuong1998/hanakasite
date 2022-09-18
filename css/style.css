@@ -321,6 +321,9 @@
 .pad-right-30{
     padding-right: 30px;
 }
+.pad-left-30{
+    padding-left: 30px;
+}
 .title-except{
     width: 80%;
     margin: auto;
