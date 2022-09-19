@@ -1,132 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link href="favicon.png" rel="icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <title>Hanaka</title>
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="plugins/slick/slick.css">
-    <link rel="stylesheet" href="plugins/fancybox/fancybox.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="plugins/jquery/jquery.min.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="plugins/fancybox/fancy.min.js"></script>
-    <script src="plugins/slick/slick.min.js"></script>
-    <script src="js/main.js"></script>
-  </head>
-  <body>
-    <div id="wrapper">
-      <!-- Header-->
-      <header id="header">
-        <div class="header-wrapper">
-          <div class="header-main">
-            <div class="header-inner flex-row container">
-              <div class="flex-col logo">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link href="favicon.png" rel="icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>Hanaka</title>
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/fancybox/fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/fancybox/fancy.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- Header-->
+    <header id="header">
+      <div class="header-wrapper">
+        <div class="header-main">
+          <div class="header-inner flex-row container">
+            <div class="flex-col logo">
+              <a href="#">
+                <img src="image/logo.png" alt="">
+              </a>
+            </div>
+            <div class="flex-col">
+              <div class="lang">
                 <a href="#">
-                  <img src="image/logo.png" alt="">
-                </a>                
+                  <img src="image/flag-vn.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="image/flag-us.png" alt="">
+                </a>
               </div>
-              <div class="flex-col">
-                <div class="lang">
-                      <a href="#">
-                        <img src="image/flag-vn.png" alt="">
-                      </a>
-                      <a href="#">
-                        <img src="image/flag-us.png" alt="">
-                      </a>
-                </div>
-                <div class="header-nav-main">
-                  <ul class="navbar">
-                    <li>
-                      <a href="#">Giới thiệu dự án</a>
-                    </li>
-                    <li>
-                      <a href="#">Quy hoạch - Xây dựng</a>
-                    </li>
-                    <li>
-                      <a href="#">Chính sách đầu tư</a>
-                    </li>
-                    <li>
-                      <a href="#">Chủ đầu tư</a>
-                    </li>
-                    <li>
-                      <a href="#">Tin tức hoạt động</a>
-                    </li>
-                    <li>
-                      <a href="#">Liên hệ</a>
-                    </li>
-                  </ul>
-                </div>
+              <div class="header-nav-main">
+                <ul class="navbar">
+                  <li>
+                    <a href="#">Giới thiệu dự án</a>
+                  </li>
+                  <li>
+                    <a href="#">Quy hoạch - Xây dựng</a>
+                  </li>
+                  <li>
+                    <a href="#">Chính sách đầu tư</a>
+                  </li>
+                  <li>
+                    <a href="#">Chủ đầu tư</a>
+                  </li>
+                  <li>
+                    <a href="#">Tin tức hoạt động</a>
+                  </li>
+                  <li>
+                    <a href="#">Liên hệ</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <!-- End Header-->
+      </div>
+    </header>
+    <!-- End Header-->
 
-      <!-- Main-->
-      <main id="main">
-        <div id="content" class="content-area">
-          <section class="section">
-            <div class="section-bg"></div>
-            <div class="section-content">
+    <!-- Main-->
+    <main id="main">
+      <div id="content" class="content-area">
+        <section class="section section-gt-kcn section-p70">
+          <div class="section-bg fill bg-fill fill-max">
+            <div class="section-bg-overlay fill"></div>
+          </div>
+          <div class="section-content">
+            <div class="container">
+              <div class="row align-middle">
+                <div class="col-md-12">
+                  <h2 class="uppercase content__title content__text--large color--white">KHU CÔNG NGHIỆP HANAKA GIA BÌNH
+                    2</h2>
+                </div>
+                <div class="col-md-6">
+                  <div class="gt-content color--white content__text--small justify">
+                    <p class="font-bold"><i>“XUẤT PHÁT ĐIỂM CỦA THÀNH CÔNG”</i></p>
+
+                    <p>Một vùng đất án ngữ nơi vị trí đắc địa, thuận tiện di chuyển và kết nối, sở hữu nhiều nguồn lực
+                      dồi
+                      dào, tạo điều kiện thuận lợi nhất cho sự phát triển chung là vùng đất có được “địa thế vàng”.</p>
+
+                    <p>Được xây dựng tại huyện Gia Bình, <span class="color--black">theo quyết định số 128/QĐ-UBND, ngày
+                        12/4/2021 của UBND tỉnh
+                        Bắc Ninh</span>, KCN Hanaka Gia Bình 2 sở hữu lợi thế mạnh mẽ về vị trí địa lý. Không chỉ được
+                      thừa hưởng
+                      động
+                      lực tăng trưởng từ tam giác kinh tế lớn nhất miền Bắc: Hải Phòng - Hà Nội - Quảng Ninh, KCN còn
+                      thuận
+                      tiện kết nối, di chuyển bằng cả đường bộ, đường sắt, đường thủy và đường hàng không. Bên cạnh đó,
+                      nguồn lao động trẻ, có tay nghề, được đào tạo bài bản từ Bắc Ninh cũng như các tỉnh thành liền kề
+                      cũng
+                      là điểm cộng không hề nhỏ cho KCN Hanaka Gia Bình 2.</p>
+
+                    <p>Dựa trên những lợi thế có sẵn từ vị trí địa lý, Tập đoàn Hanaka tiến hành xây dựng cơ sở hạ tầng
+                      đồng
+                      bộ, thông minh, đầy đủ với tiêu chí hỗ trợ các doanh nghiệp, nhà đầu tư “sẵn sàng phát triển”.</p>
+
+                    <p>Có thể nói, KCN Hanaka Gia Bình 2 sở hữu đầy đủ các yếu tố quan trọng để trở thành một khu công
+                      nghiệp
+                      có “địa thế vàng”, tạo dựng nền tảng vững chắc với hệ sinh thái đầu tư sôi động, mạnh mẽ và an
+                      toàn,
+                      là “xuất phát điểm” để các doanh nghiệp vươn tới thành công.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <img class="width-100" src="/image/Trục Chính Khu Công Nghiệp 1.png" alt="">
+                </div>
+              </div>
+              <div class="row align-middle">
+                <div class="col-md-6 text-center">
+                  <div class="gt-tongvon">
+                    <p class="color--black font-bold uppercase content__text--medium">Tổng vốn đầu tư</p>
+                    <p class="content__text--xlarge font-bold uppercase color--white">3.956,8 TỶ ĐỒNG</p>
+                  </div>
+                </div>
+                <div class="col-md-6 gt-box-noidung">
+                  <div class="row">
+                    <div class="gt-noidung-thongke col-md-6">
+                      <div class="tongquan-thongtin">
+                        <p class="font-bold uppercase color--white content__text--medium">261,840 HA</p>
+                        <p class="font-bold tq-except uppercase color--black content__text--small">TỔNG DIỆN TÍCH<br />
+                          ĐẤT TOÀN KHU</p>
+                      </div>
+                      <div class="gap-30"></div>
+                      <div class="tongquan-thongtin">
+                        <p class="font-bold uppercase color--white content__text--medium">250,000 HA</p>
+                        <p class="font-bold tq-except uppercase color--black content__text--small">DIỆN TÍCH<br /> KHU
+                          CÔNG NGHIỆP</p>
+                      </div>
+                    </div>
+                    <div class="gt-noidung-thongke col-md-6">
+                      <div class="tongquan-thongtin">
+                        <p class="font-bold uppercase color--white content__text--medium">25.000 NGƯỜI</p>
+                        <p class="font-bold tq-except uppercase color--black content__text--small">QUY MÔ CÔNG NHÂN</p>
+                      </div>
+                      <div class="gap-30"></div>
+                      <div class="tongquan-thongtin">
+                        <p class="font-bold uppercase color--white content__text--medium">50 NĂM</p>
+                        <p class="font-bold tq-except uppercase color--black content__text--small">Thời gian khai thác
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <img class="width-100" src="/image/Phối Cảnh Tổng Thể 2 1.png" alt="">
+        </section>
+
+        <section class="section section-gt-gallery">
+          <div class="section-bg fill bg-fill">
+            <div class="section-bg-overlay fill"></div>
+          </div>
+          <div class="section-content">
+            <div class="container">
+              <div class="row align-middle">
+                <div class="col-md-6 border-right">
+                  <div class="gap-70"></div>
+                  <div class="gallery--content-left">
+                    <p class="color--orange uppercase"> ĐƯỢC KIẾN TẠO TỪ TRIẾT LÝ ESSTENTIALISM</p>
+                    <p class="content__text--small color--white justify">Khu công nghiệp Hanaka Gia Bình 2 là dự án tiếp
+                      nối sự
+                      thành công của khu công nghiệp Hanaka và khu
+                      đô thị Paris Ocean Park do Hanaka Group đầu tư phát triển. Với triết lý thiết kế “Essentialism”,
+                      đó
+                      là tập trung vào những giá trị thiết thực nhất, tối ưu hóa công năng. Khu công nghiệp Hanaka Gia
+                      Bình 2 hứa hẹn sẽ là một khu công nghiệp có thiết kế hiện đại, thông minh, được ứng dụng công nghệ
+                      tiên tiến vào hệ thống tiện ích đồng bộ, hạ tầng đáp ứng được những tiêu chuẩn khắt khe của các
+                      doanh nghiệp nước ngoài. </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="gap-70"></div>
+                  <div class="gallery--content-right">
+                    <p class="color--orange uppercase">ĐỊNH HƯỚNG LẤY CON NGƯỜI LÀM TRUNG TÂM</p>
+                    <p class="content__text--small color--white justify">Tập đoàn Hanaka luôn chú trọng đến quy hoạch và
+                      phát triển đồng bộ để phát triển xanh, công nghiệp sạch, sử dụng năng lượng tối ưu. Bên cạnh phát
+                      triển “hạ tầng cứng”, Hanaka Gia Bình 2 đẩy mạnh phát triển “hạ tầng mềm” để chăm lo cho người lao
+                      động. KCN Hanaka Gia Bình 2 đáp ứng tốt các nhu cầu về chốn an cư, giáo dục, chăm sóc sức khỏe và
+                      giải trí cho công nhân và chuyên gia, tạo nền tảng để các doanh nghiệp đảm bảo chế độ đãi ngộ tốt
+                      nhất cho công nhân, cán bộ, nhân viên của mình.</p>
+                  </div>
+                </div>
+              </div>
               <div class="row">
-                <div class="container">
-                  <p>Nội dung của bạn</p>
+                <div class="col-md-12">
+                  <div class="thumb-image">
+                    <img class="width-100" src="/image/Rectangle 35.png" alt="">
+                  </div>
                 </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </main>
-      <!-- End Main-->
+                <div class="col-md-12 box-thumb-image">
+                  <div class="thumb-image">
+                    <img class="width-100" src="/image/Rectangle 37.png" alt="">
+                  </div>
+                  <div class="thumb-image">
+                    <img class="width-100" src="/image/Rectangle 38.png" alt="">
+                  </div>
+                  <div class="thumb-image">
+                    <img class="width-100" src="/image/Rectangle 39.png" alt="">
+                  </div>
+                </div>
 
-      <!-- Footer-->
-      <footer id="footer" >
-        <div class="footer-main container">
-          <div class="footer-left">
-            <div class="logo-left">
-              <a href="#">
-                <img src="image/Logo-footer.png" alt="">
-              </a>
-            </div>
-            <div class="content-right">
-              <h3 class="uppercase">Khu công nghiệp gia bình II</h3>
-              <div class="text-content">
-                <p><i class="fa-solid fa-location-dot"></i> <span>Thuộc địa bàn các xã Nhân Thắng, Bình Dương, Thái Bảo và Vạn Ninh, huyện Gia Bình, tỉnh Bắc Ninh</span></p>
-                <p><i class="fa-solid fa-phone"></i><span>+84-222-217-555</span></p>
-                <p><i class="fa-solid fa-phone"></i><span>+84-222-3741-777</span></p>
-                <p><i class="fa-solid fa-envelope"></i><span>info@hanakagiabinh2.com.vn</span></p>
-                <p><i class="fa-solid fa-globe"></i></i><span>hanakagiabinh2.com.vn</span></p>
               </div>
             </div>
           </div>
-          <div class="footer-right">
-            <div class="logo-left">
-              <a href="#">
-                <img src="image/logo-tapdoan.png" alt="">
-              </a>
+        </section>
+    </main>
+    <!-- End Main-->
+
+    <!-- Footer-->
+    <footer id="footer">
+      <div class="footer-main container">
+        <div class="footer-left">
+          <div class="logo-left">
+            <a href="#">
+              <img src="image/Logo-footer.png" alt="">
+            </a>
+          </div>
+          <div class="content-right">
+            <h3 class="uppercase">Khu công nghiệp gia bình II</h3>
+            <div class="text-content">
+              <p><i class="fa-solid fa-location-dot"></i> <span>Thuộc địa bàn các xã Nhân Thắng, Bình Dương, Thái Bảo và
+                  Vạn Ninh, huyện Gia Bình, tỉnh Bắc Ninh</span></p>
+              <p><i class="fa-solid fa-phone"></i><span>+84-222-217-555</span></p>
+              <p><i class="fa-solid fa-phone"></i><span>+84-222-3741-777</span></p>
+              <p><i class="fa-solid fa-envelope"></i><span>info@hanakagiabinh2.com.vn</span></p>
+              <p><i class="fa-solid fa-globe"></i></i><span>hanakagiabinh2.com.vn</span></p>
             </div>
-            <div class="content-right">
-              <h3 class="uppercase">Công ty Cổ phần Tập đoàn Hanaka</h3>
-              <div class="text-content">
-                <p><i class="fa-solid fa-location-dot"></i> <span>Khu công nghiệp Hanaka, Thị xã Từ Sơn, Tỉnh Bắc Ninh, Việt Nam</span></p>
-                <p><i class="fa-solid fa-phone"></i><span>+84-222-217-555</span></p>
-                <p><i class="fa-solid fa-phone"></i><span>+84-222-3741-777</span></p>
-                <p><i class="fa-solid fa-envelope"></i><span>info@hanaka.com.vn</span></p>
-                <p><i class="fa-solid fa-globe"></i></i><span>hanaka.com.vn</span></p>
-              </div>
-            </div>
-          </div>   
+          </div>
         </div>
-      </footer>
-      <!-- End Footer-->
-    </div>
-  </body>
+        <div class="footer-right">
+          <div class="logo-left">
+            <a href="#">
+              <img src="image/logo-tapdoan.png" alt="">
+            </a>
+          </div>
+          <div class="content-right">
+            <h3 class="uppercase">Công ty Cổ phần Tập đoàn Hanaka</h3>
+            <div class="text-content">
+              <p><i class="fa-solid fa-location-dot"></i> <span>Khu công nghiệp Hanaka, Thị xã Từ Sơn, Tỉnh Bắc Ninh,
+                  Việt Nam</span></p>
+              <p><i class="fa-solid fa-phone"></i><span>+84-222-217-555</span></p>
+              <p><i class="fa-solid fa-phone"></i><span>+84-222-3741-777</span></p>
+              <p><i class="fa-solid fa-envelope"></i><span>info@hanaka.com.vn</span></p>
+              <p><i class="fa-solid fa-globe"></i></i><span>hanaka.com.vn</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer-->
+  </div>
+</body>
+
 </html>
