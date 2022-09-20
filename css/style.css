@@ -13,6 +13,9 @@
     height: 100px;
     align-items: center;
 }
+.flex-right{
+    margin-left: auto;
+}
 .navbar li:first-child {
     margin-left: 0 !important;
 }
@@ -74,6 +77,17 @@
     margin: 5px 10px 0 0;
 }
 /* banner*/
+.relative{
+    position: relative;
+}
+.box-banner-img{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.box-banner-img img{
+    height: 100%;
+}
 .header-transparent {
     position: absolute;
     top: 0;
@@ -84,7 +98,10 @@
 .content-banner {
     text-align: right;
     top: 45%;
-    right: 18%;
+    width: 100%;
+    right: unset;
+    left: unset;
+    bottom: unset;
 }
 .content-banner p {
     text-align: right;
@@ -126,12 +143,12 @@
 }
 .carousel-control.right {
     right: auto;
-    left: 26%;
+    left: 22%;
     background: none;
 }
 .carousel-control.left {
     right: auto;
-    left: 14%;
+    left: 4%;
     background: none;
 }
 .section-tongquan {
@@ -168,6 +185,9 @@
 }
 .section-thongtin .row {
     padding-bottom: 50px;
+}
+.thongtin-except{
+    margin-top: 30px;
 }
 .section-chinhsach {
     padding: 70px 0;
@@ -230,7 +250,7 @@
     cursor: pointer;
 }
 .section-home-hoatdong {
-    background: url(/image/Rectangle\ 46.png);
+    background: url(../image/Rectangle\ 46.png);
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     position: relative;
@@ -243,7 +263,7 @@
     padding: 70px 0;
 }
 .section-profile {
-    background: url(/image/Rectangle\ 47.png);
+    background: url(../image/Rectangle\ 47.png);
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     position: relative;
@@ -253,7 +273,7 @@
     width: 80%;
 }
 .section-gt-kcn {
-    background: url(/image/Rectangle\ 48.png);
+    background: url(../image/Group\ 228.png);
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     position: relative;
@@ -262,14 +282,14 @@
     background-color: rgb(203 68 5 / 90%);
 }
 .section-gt-gallery {
-    background: url(/image/Rectangle\ 70.png);
+    background: url(../image/Rectangle\ 70.png);
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     position: relative;
     padding-bottom: 70px;
 }
 .section-nguoncung {
-    background: url(/image/Rectangle\ 71.png);
+    background: url(../image/Rectangle\ 71.png);
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     position: relative;
@@ -279,7 +299,7 @@
     background-color: rgb(0 0 0 / 88%);
 }
 .section-dongluc {
-    background: url(/image/Rectangle\ 51.png);
+    background: url(../image/Rectangle\ 51.png);
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     position: relative;
@@ -465,6 +485,11 @@
     font-weight: 400;
     line-height: 30px;
 }
+.content__text--xmedium {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 .content__text--small {
     font-weight: 400;
     font-size: 16px;
@@ -604,10 +629,10 @@
     position: relative;
 }
 .section-cs-banner .title-bg {
-    background-image: url(/image/cs-bg.png);
+    background-image: url(../image/cs-bg.png);
 }
 .section-lvkd .title-bg {
-    background-image: url(/image/cdt-bg.png);
+    background-image: url(../image/cdt-bg.png);
 }
 .section-cs-banner .bg-fill,
 .section-lvkd .bg-fill {
@@ -845,7 +870,7 @@
 }
 
 .section-lienhe .section-bg {
-    background-image: url("/image/rectangle-lienhe.png");
+    background-image: url("../image/rectangle-lienhe.png");
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: 50% 50%;
