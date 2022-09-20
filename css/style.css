@@ -307,13 +307,10 @@
     background-color: rgb(0 0 0 / 88%);
 }
 .section-dongluc {
-    background: url(../image/Rectangle\ 51.png);
+    background: url(../image/diatheduan-image.png);
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     position: relative;
-}
-.section-dongluc .section-bg-overlay {
-    background-color: rgb(203 68 5 / 90%);
 }
 .box-img-nguoncung {
     padding-left: 30px;
