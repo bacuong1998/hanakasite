@@ -13,7 +13,7 @@
     height: 100px;
     align-items: center;
 }
-.flex-right{
+.flex-right {
     margin-left: auto;
 }
 .navbar li:first-child {
@@ -77,15 +77,15 @@
     margin: 5px 10px 0 0;
 }
 /* banner*/
-.relative{
+.relative {
     position: relative;
 }
-.box-banner-img{
+.box-banner-img {
     position: absolute;
     top: 0;
     height: 100%;
 }
-.box-banner-img img{
+.box-banner-img img {
     height: 100%;
 }
 .header-transparent {
@@ -155,17 +155,16 @@
     position: relative;
     padding-bottom: 70px;
 }
-.section-tongquan .section-content{
+.section-tongquan .section-content {
     position: absolute;
     width: 100%;
     top: 70px;
 }
 
-.banner-overlay img{
+.banner-overlay img {
     width: 100%;
 }
 .section-tongquan .section-bg-overlay {
-    
 }
 .tongquan-img img {
     width: 100%;
@@ -195,7 +194,7 @@
 .section-thongtin .row {
     padding-bottom: 50px;
 }
-.thongtin-except{
+.thongtin-except {
     margin-top: 30px;
 }
 .section-chinhsach {
@@ -281,10 +280,10 @@
 .section-profile .img-profile img {
     width: 80%;
 }
-.section-gt-kcn{
+.section-gt-kcn {
     position: relative;
 }
-.section-gt-kcn .section-content{
+.section-gt-kcn .section-content {
     position: absolute;
     top: 50px;
     width: 100%;
@@ -544,7 +543,7 @@
     height: 50px;
     position: absolute;
     top: -25px;
-    right: 10px;
+    right: -25px;
     border-top: 5px solid #e96324;
     border-right: 5px solid #e96324;
 }
@@ -560,7 +559,7 @@
     height: 50px;
     position: absolute;
     bottom: -25px;
-    right: 10px;
+    right: -25px;
     border-bottom: 5px solid #e96324;
     border-right: 5px solid #e96324;
 }
@@ -696,7 +695,10 @@
 /* End ChinhSach */
 /* Start TinTuc */
 .section-tt-hd {
-    background-color: #202122;
+    background: url(../image/tt-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    position: relative;
 }
 
 .tt-box {
@@ -779,6 +781,7 @@
 
 .hd-sk-box {
     padding-bottom: 40px;
+    padding-top: 40px;
 }
 /* End TinTuc */
 
@@ -1071,8 +1074,90 @@
 }
 
 /* End Liên hệ */
-@media only screen and (max-width: 48em){
-    .gap-30{
+@media only screen and (max-width: 48em) {
+    .gap-30 {
         padding-top: 15px;
+    }
+    .cdt-xd--left {
+        padding-right: 0;
+        border: unset;
+    }
+    .cdt-xd--right {
+        padding-left: 0;
+    }
+
+    .lvkd-title {
+        margin-top: 15px;
+    }
+
+    .section-cdt .width-100 {
+        padding: 10px;
+    }
+    .section-tt-hd .width-100 {
+        padding: 10px;
+    }
+    .content__image--right::after {
+        display: block;
+        content: "";
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        border-top: 3px solid #e96324;
+        border-right: 3px solid #e96324;
+    }
+
+    .content__image--left::after {
+        display: block;
+        content: "";
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        bottom: -5px;
+        left: -5px;
+        border-bottom: 3px solid #e96324;
+        border-left: 3px solid #e96324;
+    }
+    .content__image--bottom-right::after {
+        display: block;
+        content: "";
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        bottom: -5px;
+        right: -5px;
+        border-bottom: 3px solid #e96324;
+        border-right: 3px solid #e96324;
+    }
+    .title-lvkd {
+        padding-top: 30px;
+    }
+    /* Tin tuc  */
+    .tt-box--left {
+        padding-right: unset;
+    }
+    .hd-sk-box {
+        padding-top: 20px;
+        padding-bottom: unset;
+    }
+    .tt-pagination {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .section-cs-2 {
+        padding-bottom: 30px;
+    }
+
+    .cs-box {
+        margin-top: 10px;
+    }
+
+    .cs-box--first {
+        margin-top: -80px;
+    }
+    .tt-box--right {
+        margin-bottom: 20px;
     }
 }
