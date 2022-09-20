@@ -152,11 +152,20 @@
     background: none;
 }
 .section-tongquan {
-    padding: 70px 0;
     position: relative;
+    padding-bottom: 70px;
+}
+.section-tongquan .section-content{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+}
+
+.banner-overlay img{
+    width: 100%;
 }
 .section-tongquan .section-bg-overlay {
-    background-color: rgb(203 68 5 / 90%);
+    
 }
 .tongquan-img img {
     width: 100%;
