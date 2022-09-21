@@ -16,75 +16,83 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,300&display=swap');
     </style>
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="plugins/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="/plugins/jquery/jquery-3.6.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script>
-        $('#myCarousel').carousel({
-            interval: 20000
-        });
-    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/plugins/jquery/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div id="wrapper">
         <!-- Header-->
-
         <header id="header">
-            <div class="header-wrapper">
-                <div class="header-main">
-                    <div class="header-inner flex-row container">
-                        <div class="flex-col logo">
-                            <a href="#">
-                                <img src="./image/logo.png" alt="">
-                            </a>
-                        </div>
-                        <div class="flex-col">
+            <div class="navigation-wrap start-header start-style">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-md navbar-light">
 
-                        </div>
-                        <div class="flex-right">
-                            <div class="lang">
-                                <a href="#">
-                                    <img src="./image/flag-vn.png" alt="">
-                                </a>
-                                <a href="#">
-                                    <img src="./image/flag-us.png" alt="">
-                                </a>
-                            </div>
-                            <div class="header-nav-main">
-                                <ul class="navbar">
-                                    <li>
-                                        <a href="gioithieu.html">Giới thiệu dự án</a>
-                                    </li>
-                                    <li>
-                                        <a href="hatangquyhoach.html">Quy hoạch - Xây dựng</a>
-                                    </li>
-                                    <li>
-                                        <a href="chinhsach.html">Chính sách đầu tư</a>
-                                    </li>
-                                    <li>
-                                        <a href="chudautu.html">Chủ đầu tư</a>
-                                    </li>
-                                    <li>
-                                        <a href="tintuc.html">Tin tức hoạt động</a>
-                                    </li>
-                                    <li>
-                                        <a href="lienhe.html">Liên hệ</a>
-                                    </li>
-                                </ul>
-                            </div>
+                                <a class="navbar-brand" href="#" target="_blank"><img src="./image/logo.png" alt=""></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">Giới thiệu</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="#">QUY HOẠCH - XÂY DỰNG</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="#">CHÍNH SÁCH ĐẦU TƯ</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                                role="button" aria-haspopup="true" aria-expanded="false">CHỦ ĐẦU
+                                                TƯ</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">TIN TỨC HOẠT ĐỘNG</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">LIÊN HỆ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="lang">
+                                    <a href="#">
+                                        <img src="./image/flag-vn.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./image/flag-us.png" alt="">
+                                    </a>
+                                </div>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- End Header-->
 
+        <!-- End Header-->
         <!-- Main-->
         <main id="main">
             <div id="content" class="content-area">
