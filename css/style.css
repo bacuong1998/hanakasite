@@ -1,8 +1,18 @@
+html{
+    background-color: #f1f1f1;
+}
 .container-width,
 .full-width .ubermenu-nav,
 .container,
 .row {
-    max-width: 1300px;
+    max-width: 1350px;
+}
+body{
+    max-width: 1450px !important;
+    margin: auto;
+}
+#wraper{
+    position: relative;
 }
 #header {
     background: #202122;
@@ -91,6 +101,7 @@
 .header-transparent {
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 9999;
     background: transparent !important;
@@ -155,16 +166,20 @@
     position: relative;
     padding-bottom: 70px;
 }
-.section-tongquan .section-content {
-    position: absolute;
-    width: 100%;
-    top: 70px;
+.section-tongquan {
+    background: url(../image/layout-trangchu1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 30px 0;
+    height: 1230px;
+    background-size: contain;
 }
 
 .banner-overlay img {
     width: 100%;
 }
-.section-tongquan .section-bg-overlay {
+.ss-thongtin-icon{
+    text-align: center;
 }
 .tongquan-img img {
     width: 100%;
@@ -195,7 +210,7 @@
     padding-bottom: 50px;
 }
 .thongtin-except {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .section-chinhsach {
     padding: 70px 0;
@@ -210,7 +225,7 @@
 }
 .cs-box-text {
     position: absolute;
-    top: 30%;
+    top: 45%;
     padding: 15px 30px;
     color: #fff;
 }
@@ -241,7 +256,7 @@
 }
 .hd-box-text {
     position: absolute;
-    top: 60%;
+    bottom: 10%;
     padding: 15px 30px;
     color: #fff;
 }
@@ -258,15 +273,16 @@
     cursor: pointer;
 }
 .section-home-hoatdong {
-    background: url(../image/Rectangle\ 46.png);
+    background: url(../image/bgr-home-hoatdong.png);
     background-repeat: no-repeat;
-    background-size: 100% 100% !important;
     position: relative;
+    padding: 50px 0;
+    background-size: cover;
+    
 }
 .section-home-hoatdong .section-bg-overlay {
-    background-color: rgb(203 68 5 / 90%);
+    
 }
-.section-home-hoatdong,
 .section-profile {
     padding: 70px 0;
 }
@@ -471,7 +487,7 @@
 
 /* font */
 .font-bold {
-    font-weight: 600 !important;
+    font-weight: 700 !important;
 }
 
 /* text */
@@ -1072,7 +1088,22 @@
     color: #ffffff;
     line-height: 22px;
 }
-
+.image-slider .image-item{
+    transition: ease 0.5s all;
+    transform: scale(0.8);
+}
+.image-slider .slick-center{
+    transform: scale(1);
+    transition: ease 0.5s all;
+}
+.hd-box-text{
+    opacity: 0;
+    transition: ease 0.5s all;
+}
+.image-slider .slick-center .hd-box-text{
+    opacity: 1;
+    transition: ease 0.5s all;
+}
 /* End Liên hệ */
 @media only screen and (max-width: 48em) {
     .gap-30 {
