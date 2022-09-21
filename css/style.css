@@ -1249,6 +1249,9 @@ body {
     .box-banner-img{
         width: 50%;
     }
+    .button-white {
+        font-size: 14px;
+    }
     /* ------- */
     
     .gap-30 {
