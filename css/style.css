@@ -3,15 +3,19 @@ html{
 }
 .container-width,
 .full-width .ubermenu-nav,
-.container,
-.row {
+.container {
     max-width: 1350px;
+}
+@media screen and (min-width: 1200px){
+.container {
+    width: 1350px !important;
+}
 }
 body{
     max-width: 1450px !important;
     margin: auto;
 }
-#wraper{
+#wrapper{
     position: relative;
 }
 #header {
@@ -44,6 +48,7 @@ body{
     color: #fff;
     text-transform: uppercase;
     font-size: 16px;
+    font-weight: 100;
 }
 .navbar li a:hover {
     color: #e96324;
@@ -103,7 +108,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 99999999999;
     background: transparent !important;
 }
 .content-banner {
@@ -154,13 +159,15 @@ body{
 }
 .carousel-control.right {
     right: auto;
-    left: 22%;
+    left: 20%;
     background: none;
+    z-index: 9999;
 }
 .carousel-control.left {
     right: auto;
     left: 4%;
     background: none;
+    z-index: 9999;
 }
 .section-tongquan {
     position: relative;
@@ -280,9 +287,7 @@ body{
     background-size: cover;
     
 }
-.section-home-hoatdong .section-bg-overlay {
-    
-}
+
 .section-profile {
     padding: 70px 0;
 }
@@ -297,12 +302,15 @@ body{
     width: 80%;
 }
 .section-gt-kcn {
+    background: url(../image/bgr-gt.png);
+    background-repeat: no-repeat;
     position: relative;
+    padding: 30px 0 0 0;
+    height: 1770px;
+    background-size: cover;
 }
 .section-gt-kcn .section-content {
-    position: absolute;
-    top: 50px;
-    width: 100%;
+    
 }
 .section-gt-gallery {
     background: url(../image/Rectangle\ 70.png);
@@ -392,8 +400,8 @@ body{
     width: 100%;
 }
 /* background */
-.section-p70 {
-    padding: 70px 0;
+.section-p50 {
+    padding: 50px 0;
 }
 .section-p50 {
     padding: 50px 0;
@@ -487,7 +495,7 @@ body{
 
 /* font */
 .font-bold {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 /* text */
@@ -497,33 +505,33 @@ body{
 }
 .content__text {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 22px;
 }
 .content__text--medium {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
 }
 .content__text--xmedium {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
 }
 .content__text--small {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 22px;
 }
 
 .content__text--large {
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 44px;
 }
 .content__text--xlarge {
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 34px;
 }
 .content__text--xxlarge {
@@ -533,9 +541,6 @@ body{
 }
 /* Gap */
 
-.gap-50 {
-    padding-top: 50px;
-}
 .gap-30 {
     padding-top: 30px;
 }
@@ -1104,8 +1109,96 @@ body{
     opacity: 1;
     transition: ease 0.5s all;
 }
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
 /* End Liên hệ */
 @media only screen and (max-width: 48em) {
+    /* ------- */
+    .gap-50 {
+        padding-top: 30px;
+    }
+    .content__text--large {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .content__text--medium {
+        font-size: 20px;
+    }
+    .section-tongquan {
+        background-size: cover;
+        height: 910px;
+    }
+    .tongquan-img img {
+        width: 100%;
+        padding: 0;
+    }
+    .section-thongtin {
+        padding: 30px 0;
+    }
+    .cs-box-text {
+        top: 30%;
+    }
+    .cs-button a {
+        font-size: 14px;
+    }
+    .ss-thongtin-icon i {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .ss-thongtin-content{
+        padding-left: 0;
+    }
+    .section-chinhsach {
+        padding: 30px 0;
+    }
+    .chinhsach-gt{
+        margin-bottom: 30px;
+    }
+    .box-collapse .cs-box-image:first-child{
+        margin-bottom: 30px;
+    }
+    .hd-box-text {
+        padding: 15px 50px;
+    }
+    .section-profile .img-profile img {
+        width: 100%;
+    }
+
+    .footer-main {
+        display: grid;
+    }
+    .footer-left {
+        padding: auto;
+        width: 100%;
+        display: grid;
+    }
+    .footer-right {
+        padding: auto;
+        width: 100%;
+        display: grid;
+        margin-top: 110px;
+    }
+    .footer-main {
+        padding: 50px 15px;
+    }
+    .content-right {
+        padding: 0;
+    }
+    .logo-left{
+        text-align: center;
+    }
+    .text-content p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 30px;
+        display: flex;
+    }
+    #footer {
+        background: linear-gradient(to bottom, #e96324 50%, #202122 50%, #202122 50%);
+    }
+    /* ------- */
+    
     .gap-30 {
         padding-top: 15px;
     }
