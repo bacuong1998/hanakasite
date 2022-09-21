@@ -1281,8 +1281,69 @@ body {
     .button-white {
         font-size: 14px;
     }
-    /* ------- */
+    .content__title {
+    margin-bottom: 30px;
+    text-align: left;
+    }
+    .row>* {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
 
+    }
+    .gt-tongvon {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .section-gt-kcn .section-bg{
+        background: rgb(233 99 36 / 90%);
+    }
+    .gt-content {
+        padding-right: 0px;
+    }
+    .section-gt-kcn {
+        height: 1490px;
+    }
+    .gallery--content-left {
+        padding-right: 0;
+    }
+    .gallery--content-right {
+        padding-left: 0;
+    }
+    .border-right {
+        border-bottom: solid #d9d9d9 2px;
+        border-right: unset;
+    }
+    .section-p50 {
+        padding: 30px 0;
+    }
+    .pad-right-30 {
+        padding-right: 0;
+    }
+    .box-img-dongluc{
+        margin-bottom: 30px;
+    }
+    .title-except {
+        width: 100%;
+        margin: auto;
+        text-align: left !important;
+    }
+    .list-company {
+        display: grid;
+    }
+    .text-address {
+        padding: 0;
+    }
+    .section-nguoncung {
+        padding: 30px 0;
+    }
+    .box-img-nguoncung {
+        padding-left: 0;
+    }
+    /* ------- */
+    .gap-70 {
+    padding-top: 45px;
+}
     .gap-30 {
         padding-top: 15px;
     }
