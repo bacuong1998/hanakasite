@@ -1197,6 +1197,58 @@ body {
     #footer {
         background: linear-gradient(to bottom, #e96324 50%, #202122 50%, #202122 50%);
     }
+    .navbar{
+        display: none;
+    }
+    .box-banner{
+        height: 650px;
+    }
+    .box-banner .item img{
+        height: 650px !important;
+    }
+    .content-banner {
+        text-align: right;
+        top: 30%;
+        width: 65%;
+        right: 0;
+        left: unset;
+        bottom: unset;
+    }
+    .content__text--xxlarge {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .content-banner p {
+        text-align: right;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .banner-button a {
+        font-size: 12px;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+        left: 115PX;
+        margin-left: -10px;
+        top: 95% !IMPORTANT;
+    }
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+        right: unset;
+        margin-right: -10px;
+        top: 95% !important;
+        left: 190px;
+    }
+    .logo{
+        width: 145px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .box-banner-img img {
+        width: 100%;
+    }
+    .box-banner-img{
+        width: 50%;
+    }
     /* ------- */
     
     .gap-30 {
