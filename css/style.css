@@ -1226,7 +1226,6 @@ body {
         background-color: #202122;
         padding: 0;
         height: 0;
-        overflow: hidden;
     }
     .box-banner {
         height: 650px;
