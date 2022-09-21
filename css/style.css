@@ -1225,7 +1225,7 @@ body {
     .submenu {
         background-color: #202122;
         padding: 0;
-        height: 0;
+        display: none;
     }
     .box-banner {
         height: 650px;
@@ -1282,20 +1282,19 @@ body {
         font-size: 14px;
     }
     .content__title {
-    margin-bottom: 30px;
-    text-align: left;
+        margin-bottom: 30px;
+        text-align: left;
     }
-    .row>* {
+    .row > * {
         padding-right: 0 !important;
         padding-left: 0 !important;
-
     }
     .gt-tongvon {
         width: 100%;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .section-gt-kcn .section-bg{
+    .section-gt-kcn .section-bg {
         background: rgb(233 99 36 / 90%);
     }
     .gt-content {
@@ -1320,7 +1319,7 @@ body {
     .pad-right-30 {
         padding-right: 0;
     }
-    .box-img-dongluc{
+    .box-img-dongluc {
         margin-bottom: 30px;
     }
     .title-except {
@@ -1342,8 +1341,8 @@ body {
     }
     /* ------- */
     .gap-70 {
-    padding-top: 45px;
-}
+        padding-top: 45px;
+    }
     .gap-30 {
         padding-top: 15px;
     }

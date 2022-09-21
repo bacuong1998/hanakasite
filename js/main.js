@@ -1,6 +1,5 @@
 function openMenu(elem) {
   var menu = document.getElementById("navmenu");
-
   if (menu.clientHeight === 0) {
     menu.style.height = "auto";
   } else {
@@ -10,9 +9,9 @@ function openMenu(elem) {
 
 function openSubmenu(elem) {
   var subMenu = document.getElementById("submenu");
-  if (subMenu.clientHeight === 0) {
-    subMenu.style.height = "auto";
+  if (subMenu.style.display === "" || subMenu.style.display === "none") {
+    subMenu.style.display = "block";
   } else {
-    subMenu.style.height = 0;
+    subMenu.style.display = "none";
   }
 }
