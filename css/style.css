@@ -951,7 +951,7 @@ body {
 /* End ChinhSach */
 /* Start TinTuc */
 .section-tt-hd {
-    background: url(../image/tt-bg.jpg);
+    background: url(../image/tt-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100% !important;
     position: relative;
@@ -1142,6 +1142,7 @@ body {
     background-position: 50% 50%;
     height: 85px;
     position: relative;
+    background-color: rgb(213 67 0 / 76%);
 }
 
 .section-bg-overlay {
@@ -1766,6 +1767,9 @@ body {
         margin-left: 46px;
         font-size: 20px;
     }
-
+    .section-cs-banner .section-content {
+        min-height: 180px;
+        position: relative;
+    }
     /* End hạ tầng */
 }
